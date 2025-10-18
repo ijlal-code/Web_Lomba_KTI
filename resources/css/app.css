@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+
+/* Impor CSS AOS */
+@import 'aos/dist/aos.css';
+
+/* CSS Kustom Khusus untuk Timeline (karena ::before tidak bisa diakses langsung) */
+.timeline-item {
+    /* Menjaga class Tailwind agar tetap berfungsi */
+    @apply relative pl-8 mb-6 border-l-2 border-blue-600;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Mencegah horizontal scrollbar dari elemen yang meluber */
+    overflow-x: hidden; 
+}
+body {
+    /* Mencegah horizontal scrollbar dan memastikan tampilan full */
+    overflow-x: hidden; 
+}
+.timeline-item::before {
+    content: '•';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    color: #007bff; /* primary-color */
+    font-size: 1.5em;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0 5px;
+}
+
+/* Penyesuaian untuk list checkmark */
+.check-list li {
+    @apply mb-2;
+    list-style: none;
+    padding-left: 1em;
+}
+
+.check-list li::before {
+    content: "✓";
+    color: #28a745; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* ... dan sisa CSS kustom Anda (jika ada) ... */
