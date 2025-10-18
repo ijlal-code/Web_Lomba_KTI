@@ -12,7 +12,7 @@
         <div class="container w-11/12 max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
             
             <a href="#" class="text-blue-600 font-extrabold text-lg flex items-center">
-                <span class="hidden sm:inline">LKTI</span> INFINITEC
+                INFINITEC
             </a>
 
             <div class="hidden md:flex space-x-6">
@@ -45,12 +45,11 @@
     </nav>
     
     <header class="bg-blue-600 text-white pt-10 pb-10 text-center" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="600">
-        <div class="container w-11/12 max-w-6xl mx-auto py-5 px-4">
-            <p class="text-sm md:text-base" data-aos="fade-up" data-aos-delay="100">Informatics Study Club (ISC) Unsulbar Proudly Present:</p>
+        <div class="container w-11/12 max-w-6xl mx-auto py-5 px-4 pt-12">
             <h1 class="font-['Arial Black'] mb-1 text-3xl md:text-5xl" data-aos="fade-up" data-aos-delay="200">LOMBA KARYA TULIS ILMIAH</h1>
             <h2 class="text-xl md:text-2xl mt-0" data-aos="fade-up" data-aos-delay="300">SMA/SMK Sederajat Se-Sulawesi Barat</h2>
             <p class="italic text-lg" data-aos="fade-up" data-aos-delay="400">"Berkarya dengan Teknologi, Berkreasi dengan Ide, Bertumbuh lewat Kompetisi."</p>
-            <p class="mt-4" data-aos="fade-up" data-aos-delay="500">Pendaftaran & Pengumpulan Fullpaper: **18 Oktober - 30 November 2025**</p>
+            <p class="mt-4" data-aos="fade-up" data-aos-delay="500">Pendaftaran & Pengumpulan Fullpaper: 18 Oktober - 30 November 2025</p>
             
             <a href="https://forms.gle/Y1DQ5zGcsuQ7BoDi9" target="_blank" 
                class="inline-block bg-yellow-400 text-gray-800 py-4 px-8 font-bold rounded mt-5 transition hover:bg-yellow-500 shadow-lg" data-aos="zoom-in" data-aos-delay="700">
@@ -123,7 +122,7 @@
                 
                 <div class="card bg-white p-5 rounded-lg shadow-md lg:col-span-2" data-aos="flip-right" data-aos-delay="200">
                     <h4 class="text-green-600 font-bold text-lg mb-4">Biaya Pendaftaran & Hadiah</h4>
-                    <p>Biaya Pendaftaran: **Rp50.000 / Tim**</p>
+                    <p>Biaya Pendaftaran: Rp50.000 / Tim</p>
                     <p>Transfer ke:</p>
                     <p class="font-bold text-xl my-2">Bank BRI: 0047 0107 2191 508</p>
                     <p>(a.n. Puput Yunita)</p>
