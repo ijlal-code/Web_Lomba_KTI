@@ -6,7 +6,6 @@
         }
     },
     "routes": [
-        // --- ROUTE BARU UNTUK ASSETS (CSS/JS) VITE ---
         {
             "src": "/build/(.*)", 
             "dest": "/public/build/$1"
