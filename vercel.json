@@ -6,6 +6,11 @@
         }
     },
     "routes": [
+        // --- ROUTE BARU UNTUK ASSETS (CSS/JS) VITE ---
+        {
+            "src": "/build/(.*)", 
+            "dest": "/public/build/$1"
+        },
         {
             "src": "/img/(.*)",
             "dest": "/public/img/"
