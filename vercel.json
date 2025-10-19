@@ -17,6 +17,7 @@
     ],
     "env": {
         "APP_ENV": "production",
+        "APP_KEY": "base64:uK9Uhf9cR7CA9nDQ6YCWxeX0JvIb/EoUxFZ/AX++0yg=",
         "APP_DEBUG": "true",
         "APP_URL": "https://example-atomik.vercel.app/",
         "APP_CONFIG_CACHE": "/tmp/config.php",
